@@ -29,7 +29,14 @@ function safeSecret(expected: string, actual: string): boolean {
 function formatMessage(p: Record<string, any>, number: number, version: number): string {
   const [heading, encouragement] = phrases[(number + version - 2) % phrases.length]
   const title = read(p.homework?.title).slice(0, 90)
-  return '<b>' + heading + '</b>\nHomework #' + number + (title ? ': ' + escapeHtml(title) : '') + '\n' + encouragement
+  const description = read(p.homework?.description).slice(0, 360)
+  const headingLine = 'Homework #' + number + (title ? ': ' + escapeHtml(title) : '')
+  return [
+    '<b>' + escapeHtml(heading) + '</b>',
+    '<b>' + headingLine + '</b>',
+    description ? escapeHtml(description) : '',
+    escapeHtml(encouragement),
+  ].filter(Boolean).join('\n\n')
 }
 function keyboard(p: Record<string, any>) {
   const rows: { text: string, url: string }[][] = []
