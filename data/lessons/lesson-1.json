@@ -1,0 +1,647 @@
+{
+  "id": "lesson-1",
+  "number": 1,
+  "title": "Word order in questions & relative clauses",
+  "subtitle": "English File B1 · Grammar, the alphabet & speaking accuracy",
+  "status": "available",
+  "vocabularyId": "vocab-lesson-1",
+  "grammarIds": [
+    "grammar-word-order-questions",
+    "grammar-relative-clauses-1"
+  ],
+  "publishedAt": "2026-10-13",
+  "totalPoints": 45,
+  "notification": {
+    "enabled": true,
+    "version": 1
+  },
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "q-order-choose",
+      "title": "1 · Which question is correct?",
+      "instructions": "Choose the question with the correct word order.",
+      "items": [
+        {
+          "id": "example",
+          "number": "",
+          "example": true,
+          "exampleLabel": "Example",
+          "prompt": "Which is correct: “Are you hungry?” / “Do you hungry?”",
+          "exampleTarget": "Are you hungry?"
+        },
+        {
+          "id": "item-1",
+          "number": 1,
+          "input": "single",
+          "options": [
+            "Where your brother lives?",
+            "Where does your brother live?"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "item-2",
+          "number": 2,
+          "input": "single",
+          "options": [
+            "Did Lena enjoy the concert?",
+            "Did Lena enjoyed the concert?"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "item-3",
+          "number": 3,
+          "input": "single",
+          "options": [
+            "Why the windows are open?",
+            "Why are the windows open?"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "item-4",
+          "number": 4,
+          "input": "single",
+          "options": [
+            "Can your cousin drive?",
+            "Does your cousin can drive?"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "item-5",
+          "number": 5,
+          "input": "single",
+          "options": [
+            "Does your aunt a dentist?",
+            "Is your aunt a dentist?"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "item-6",
+          "number": 6,
+          "input": "single",
+          "options": [
+            "How often the bus stops here?",
+            "How often does the bus stop here?"
+          ],
+          "answer": 1
+        }
+      ],
+      "hideAnswersOnError": true
+    },
+    {
+      "type": "exercise",
+      "id": "q-build",
+      "title": "2 · Build the questions",
+      "instructions": "Write a complete question using the prompts in brackets. Use the tense shown.",
+      "items": [
+        {
+          "id": "example",
+          "number": "",
+          "example": true,
+          "exampleLabel": "Example",
+          "prompt": "they / travel / by train? (Present Simple)",
+          "exampleTarget": "Do they travel by train?"
+        },
+        {
+          "id": "item-1",
+          "number": 1,
+          "input": "text",
+          "prompt": "your friends / study / online? (Present Simple)",
+          "answer": "Do your friends study online?"
+        },
+        {
+          "id": "item-2",
+          "number": 2,
+          "input": "text",
+          "prompt": "what / Sam / order / for dinner? (Past Simple)",
+          "answer": "What did Sam order for dinner?"
+        },
+        {
+          "id": "item-3",
+          "number": 3,
+          "input": "text",
+          "prompt": "where / your aunt / work? (Present Simple)",
+          "answer": "Where does your aunt work?"
+        },
+        {
+          "id": "item-4",
+          "number": 4,
+          "input": "text",
+          "prompt": "you / be / at home / yesterday evening? (Past Simple of be)",
+          "answer": "Were you at home yesterday evening?"
+        },
+        {
+          "id": "item-5",
+          "number": 5,
+          "input": "text",
+          "prompt": "your neighbours / can / help / us? (can)",
+          "answer": "Can your neighbours help us?"
+        },
+        {
+          "id": "item-6",
+          "number": 6,
+          "input": "text",
+          "prompt": "why / Ella / be / late / today? (Present Simple of be)",
+          "answer": "Why is Ella late today?"
+        }
+      ],
+      "hideAnswersOnError": true
+    },
+    {
+      "type": "exercise",
+      "id": "q-followups",
+      "title": "3 · Ask for the missing detail",
+      "instructions": "Read each answer. Write the question that asks for the information in brackets.",
+      "items": [
+        {
+          "id": "example",
+          "number": "",
+          "example": true,
+          "exampleLabel": "Example",
+          "prompt": "“I live in Ufa.” (Where?)",
+          "exampleTarget": "Where do you live?"
+        },
+        {
+          "id": "item-1",
+          "number": 1,
+          "input": "text",
+          "prompt": "“I usually finish work at six.” (When?)",
+          "answer": "When do you usually finish work?"
+        },
+        {
+          "id": "item-2",
+          "number": 2,
+          "input": "text",
+          "prompt": "“Mia bought her camera in London.” (Where?)",
+          "answer": "Where did Mia buy her camera?"
+        },
+        {
+          "id": "item-3",
+          "number": 3,
+          "input": "text",
+          "prompt": "“I am reading a travel blog.” (What?)",
+          "answer": "What are you reading?"
+        },
+        {
+          "id": "item-4",
+          "number": 4,
+          "input": "text",
+          "prompt": "“There are four students in the room.” (How many students?)",
+          "answer": "How many students are there in the room?"
+        },
+        {
+          "id": "item-5",
+          "number": 5,
+          "input": "text",
+          "prompt": "“Dan goes swimming twice a week.” (How often?)",
+          "answer": "How often does Dan go swimming?"
+        },
+        {
+          "id": "item-6",
+          "number": 6,
+          "input": "text",
+          "prompt": "“I invited Oliver because he is my colleague.” (Why?)",
+          "answer": "Why did you invite Oliver?"
+        }
+      ],
+      "hideAnswersOnError": true
+    },
+    {
+      "type": "exercise",
+      "id": "alpha-sounds",
+      "title": "4 · The alphabet: vowel sounds",
+      "instructions": "Choose the word with the same main vowel sound as the name of each letter. Use British English letter names (Z is pronounced “zed”).",
+      "items": [
+        {
+          "id": "example",
+          "number": "",
+          "example": true,
+          "exampleLabel": "Example",
+          "prompt": "Letter A",
+          "exampleTarget": "train /eɪ/"
+        },
+        {
+          "id": "item-1",
+          "number": 1,
+          "input": "select",
+          "prompt": "Letter H",
+          "options": [
+            "train /eɪ/",
+            "tree /iː/",
+            "egg /e/",
+            "bike /aɪ/",
+            "phone /əʊ/",
+            "boot /uː/",
+            "car /ɑː/"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "item-2",
+          "number": 2,
+          "input": "select",
+          "prompt": "Letter G",
+          "options": [
+            "train /eɪ/",
+            "tree /iː/",
+            "egg /e/",
+            "bike /aɪ/",
+            "phone /əʊ/",
+            "boot /uː/",
+            "car /ɑː/"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "item-3",
+          "number": 3,
+          "input": "select",
+          "prompt": "Letter L",
+          "options": [
+            "train /eɪ/",
+            "tree /iː/",
+            "egg /e/",
+            "bike /aɪ/",
+            "phone /əʊ/",
+            "boot /uː/",
+            "car /ɑː/"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "item-4",
+          "number": 4,
+          "input": "select",
+          "prompt": "Letter Y",
+          "options": [
+            "train /eɪ/",
+            "tree /iː/",
+            "egg /e/",
+            "bike /aɪ/",
+            "phone /əʊ/",
+            "boot /uː/",
+            "car /ɑː/"
+          ],
+          "answer": 3
+        },
+        {
+          "id": "item-5",
+          "number": 5,
+          "input": "select",
+          "prompt": "Letter O",
+          "options": [
+            "train /eɪ/",
+            "tree /iː/",
+            "egg /e/",
+            "bike /aɪ/",
+            "phone /əʊ/",
+            "boot /uː/",
+            "car /ɑː/"
+          ],
+          "answer": 4
+        },
+        {
+          "id": "item-6",
+          "number": 6,
+          "input": "select",
+          "prompt": "Letter Q",
+          "options": [
+            "train /eɪ/",
+            "tree /iː/",
+            "egg /e/",
+            "bike /aɪ/",
+            "phone /əʊ/",
+            "boot /uː/",
+            "car /ɑː/"
+          ],
+          "answer": 5
+        },
+        {
+          "id": "item-7",
+          "number": 7,
+          "input": "select",
+          "prompt": "Letter R",
+          "options": [
+            "train /eɪ/",
+            "tree /iː/",
+            "egg /e/",
+            "bike /aɪ/",
+            "phone /əʊ/",
+            "boot /uː/",
+            "car /ɑː/"
+          ],
+          "answer": 6
+        }
+      ],
+      "hideAnswersOnError": true
+    },
+    {
+      "type": "exercise",
+      "id": "relative-select-all",
+      "title": "5 · Who, which or that?",
+      "instructions": "Tick ALL the relative pronouns that can complete each defining relative clause.",
+      "items": [
+        {
+          "id": "example",
+          "number": "",
+          "example": true,
+          "exampleLabel": "Example",
+          "prompt": "The actor … stars in this series. (Tick all possible pronouns.)",
+          "exampleTarget": "who; that"
+        },
+        {
+          "id": "item-1",
+          "number": 1,
+          "input": "multiple",
+          "segments": [
+            "The photographer",
+            "took our photo has a studio nearby."
+          ],
+          "options": [
+            "who",
+            "which",
+            "that"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "prompt": "The photographer … took our photo has a studio nearby."
+        },
+        {
+          "id": "item-2",
+          "number": 2,
+          "input": "multiple",
+          "segments": [
+            "I bought a chair",
+            "folds flat."
+          ],
+          "options": [
+            "who",
+            "which",
+            "that"
+          ],
+          "answer": [
+            1,
+            2
+          ],
+          "prompt": "I bought a chair … folds flat."
+        },
+        {
+          "id": "item-3",
+          "number": 3,
+          "input": "multiple",
+          "segments": [
+            "The neighbours",
+            "moved in last week are very friendly."
+          ],
+          "options": [
+            "who",
+            "which",
+            "that"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "prompt": "The neighbours … moved in last week are very friendly."
+        },
+        {
+          "id": "item-4",
+          "number": 4,
+          "input": "multiple",
+          "segments": [
+            "This is the app",
+            "helps me organise my week."
+          ],
+          "options": [
+            "who",
+            "which",
+            "that"
+          ],
+          "answer": [
+            1,
+            2
+          ],
+          "prompt": "This is the app … helps me organise my week."
+        },
+        {
+          "id": "item-5",
+          "number": 5,
+          "input": "multiple",
+          "segments": [
+            "The chef",
+            "works here trained in Italy."
+          ],
+          "options": [
+            "who",
+            "which",
+            "that"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "prompt": "The chef … works here trained in Italy."
+        },
+        {
+          "id": "item-6",
+          "number": 6,
+          "input": "multiple",
+          "segments": [
+            "We visited a museum",
+            "displays old cameras."
+          ],
+          "options": [
+            "who",
+            "which",
+            "that"
+          ],
+          "answer": [
+            1,
+            2
+          ],
+          "prompt": "We visited a museum … displays old cameras."
+        }
+      ],
+      "hideAnswersOnError": true
+    },
+    {
+      "type": "exercise",
+      "id": "relative-join",
+      "title": "6 · Make one sentence from two",
+      "instructions": "Join the two sentences with a defining relative clause. Use who, which or that. Keep all the information.",
+      "items": [
+        {
+          "id": "example",
+          "number": "",
+          "example": true,
+          "exampleLabel": "Example",
+          "prompt": "A teacher called me. She teaches French.",
+          "exampleTarget": "A teacher who teaches French called me."
+        },
+        {
+          "id": "item-1",
+          "number": 1,
+          "input": "text",
+          "prompt": "A neighbour found my wallet. She lives on the third floor.",
+          "answer": "A neighbour who lives on the third floor found my wallet.",
+          "acceptedAnswers": [
+            "A neighbour who lives on the third floor found my wallet.",
+            "A neighbour that lives on the third floor found my wallet."
+          ]
+        },
+        {
+          "id": "item-2",
+          "number": 2,
+          "input": "text",
+          "prompt": "I watched a documentary. It explains how volcanoes form.",
+          "answer": "I watched a documentary which explains how volcanoes form.",
+          "acceptedAnswers": [
+            "I watched a documentary which explains how volcanoes form.",
+            "I watched a documentary that explains how volcanoes form."
+          ]
+        },
+        {
+          "id": "item-3",
+          "number": 3,
+          "input": "text",
+          "prompt": "The children won the competition. They practise every weekend.",
+          "answer": "The children who practise every weekend won the competition.",
+          "acceptedAnswers": [
+            "The children who practise every weekend won the competition.",
+            "The children that practise every weekend won the competition."
+          ]
+        },
+        {
+          "id": "item-4",
+          "number": 4,
+          "input": "text",
+          "prompt": "We stayed in a hotel. It overlooks the river.",
+          "answer": "We stayed in a hotel which overlooks the river.",
+          "acceptedAnswers": [
+            "We stayed in a hotel which overlooks the river.",
+            "We stayed in a hotel that overlooks the river."
+          ]
+        },
+        {
+          "id": "item-5",
+          "number": 5,
+          "input": "text",
+          "prompt": "The woman is my new colleague. She is wearing a green coat.",
+          "answer": "The woman who is wearing a green coat is my new colleague.",
+          "acceptedAnswers": [
+            "The woman who is wearing a green coat is my new colleague.",
+            "The woman that is wearing a green coat is my new colleague."
+          ]
+        },
+        {
+          "id": "item-6",
+          "number": 6,
+          "input": "text",
+          "prompt": "I found a website. It offers free pronunciation practice.",
+          "answer": "I found a website which offers free pronunciation practice.",
+          "acceptedAnswers": [
+            "I found a website which offers free pronunciation practice.",
+            "I found a website that offers free pronunciation practice."
+          ]
+        }
+      ],
+      "hideAnswersOnError": true
+    },
+    {
+      "type": "exercise",
+      "id": "mixed-correct",
+      "title": "7 · Find and correct the mistake",
+      "instructions": "Each sentence contains ONE grammar mistake. Rewrite the WHOLE sentence correctly.",
+      "items": [
+        {
+          "id": "example",
+          "number": "",
+          "example": true,
+          "exampleLabel": "Example",
+          "prompt": "Did they took the wrong train?",
+          "exampleTarget": "Did they take the wrong train?"
+        },
+        {
+          "id": "item-1",
+          "number": 1,
+          "input": "text",
+          "prompt": "Where does your sister works?",
+          "answer": "Where does your sister work?"
+        },
+        {
+          "id": "item-2",
+          "number": 2,
+          "input": "text",
+          "prompt": "Did he went to the interview?",
+          "answer": "Did he go to the interview?"
+        },
+        {
+          "id": "item-3",
+          "number": 3,
+          "input": "text",
+          "prompt": "Why you are tired today?",
+          "answer": "Why are you tired today?"
+        },
+        {
+          "id": "item-4",
+          "number": 4,
+          "input": "text",
+          "prompt": "Who did called you last night?",
+          "answer": "Who called you last night?"
+        },
+        {
+          "id": "item-5",
+          "number": 5,
+          "input": "text",
+          "prompt": "The man which lives opposite us is an architect.",
+          "answer": "The man who lives opposite us is an architect.",
+          "acceptedAnswers": [
+            "The man who lives opposite us is an architect.",
+            "The man that lives opposite us is an architect."
+          ]
+        },
+        {
+          "id": "item-6",
+          "number": 6,
+          "input": "text",
+          "prompt": "That’s the jacket who belongs to Mia.",
+          "answer": "That’s the jacket which belongs to Mia.",
+          "acceptedAnswers": [
+            "That’s the jacket which belongs to Mia.",
+            "That’s the jacket that belongs to Mia."
+          ]
+        },
+        {
+          "id": "item-7",
+          "number": 7,
+          "input": "text",
+          "prompt": "The students who studies online meet once a month.",
+          "answer": "The students who study online meet once a month.",
+          "acceptedAnswers": [
+            "The students who study online meet once a month.",
+            "The students that study online meet once a month."
+          ]
+        },
+        {
+          "id": "item-8",
+          "number": 8,
+          "input": "text",
+          "prompt": "The shop which sell second-hand books is near my office.",
+          "answer": "The shop which sells second-hand books is near my office.",
+          "acceptedAnswers": [
+            "The shop which sells second-hand books is near my office.",
+            "The shop that sells second-hand books is near my office."
+          ]
+        }
+      ],
+      "hideAnswersOnError": true
+    }
+  ]
+}
