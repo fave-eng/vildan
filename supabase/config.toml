@@ -2,3 +2,7 @@ project_id = "zqzgarvmpqqqaobeicpc"
 
 [functions.notify-telegram]
 verify_jwt = false
+
+[functions.notify-vildan-materials]
+# GitHub Actions authenticates with the x-notify-secret webhook secret.
+verify_jwt = false
