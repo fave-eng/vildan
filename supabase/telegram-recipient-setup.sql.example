@@ -1,0 +1,3 @@
+-- Example recipient for another student, do NOT execute without checking IDs.
+-- Vildan's actual recipient is in telegram-recipient-setup.sql
+-- Use a student-specific UPSERT; never overwrite other rows.

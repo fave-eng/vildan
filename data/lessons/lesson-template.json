@@ -1,0 +1,17 @@
+{
+  "id": "lesson-1",
+  "number": 1,
+  "title": "New homework",
+  "subtitle": "English File B1 · Homework",
+  "status": "draft",
+  "vocabularyId": null,
+  "grammarIds": [],
+  "publishedAt": "YYYY-MM-DD",
+  "totalPoints": 0,
+  "notification": {
+    "enabled": false,
+    "version": 1
+  },
+  "templateNote": "When ready, copy as lesson-1.json. Publish only once real exercises, answer validation, audio/image references and correct scores have been added. Add grammarIds/vocabularyId only when matching topics exist.",
+  "blocks": []
+}
