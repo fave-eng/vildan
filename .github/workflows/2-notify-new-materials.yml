@@ -16,6 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       NOTIFY_WEBHOOK_SECRET: ${{ secrets.NOTIFY_WEBHOOK_SECRET }}
+      NOTIFY_ENDPOINT: https://zqzgarvmpqqqaobeicpc.supabase.co/functions/v1/notify-vildan-materials
 
     steps:
       - uses: actions/checkout@v4
