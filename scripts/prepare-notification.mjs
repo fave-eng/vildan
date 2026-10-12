@@ -44,6 +44,22 @@ function isNotifiable(lesson) {
   return lesson.status === 'available' && lesson.notification?.enabled === true
 }
 
+// Use the teacher-authored description when provided. For older/future lessons,
+// fall back to the actual exercise headings rather than a generic announcement.
+function notificationDescription(lesson) {
+  const custom = typeof lesson.notification?.description === 'string'
+    ? lesson.notification.description.trim()
+    : ''
+  if (custom) return custom.slice(0, 360)
+  const headings = (Array.isArray(lesson.blocks) ? lesson.blocks : [])
+    .filter((block) => block.type === 'exercise')
+    .map((block) => String(block.title || '').replace(/^\d+\s*[·.:-]\s*/, '').trim())
+    .filter(Boolean)
+    .slice(0, 4)
+  if (headings.length) return 'In this homework, you’ll practise: ' + headings.join('; ') + '.'
+  return 'Review and practise ' + String(lesson.title || 'this lesson').trim() + '.'
+}
+
 const siteBaseUrl = requiredEnv('SITE_BASE_URL').replace(/\/+$/, '')
 const studentId = requiredEnv('STUDENT_ID')
 const projectId = requiredEnv('SUPABASE_PROJECT_ID')
@@ -99,6 +115,7 @@ for (const lesson of lessons) {
       id: lesson.id,
       title: lesson.title || 'Homework',
       subtitle: lesson.subtitle || '',
+      description: notificationDescription(lesson),
       topic: [lesson.title || 'Homework', lesson.subtitle || ''].filter(Boolean).join(' — '),
       url: pageUrl(
         siteBaseUrl,
